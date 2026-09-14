@@ -1,6 +1,6 @@
 const productModel = require('../model/productModel');
 const userModel = require('../model/userModel');
-//const cloudinary = require('../config/cloudinary');
+const cloudinary = require('../config/cloudinary');
 /**
  * create : upload product
  * get all : 
