@@ -9,7 +9,7 @@ const productRoute = require("./routes/productRoutes.js")
 const compass_string = process.env.COMPASS_STRING
 const atlas_string = process.env.ATLASS_STRING
 
-mongoose.connect(compass_string)
+mongoose.connect(atlas_string)
     .then(() => console.log("MongoDB Connected"))
     .catch(err => console.error("Connection Error: ", err));
 
